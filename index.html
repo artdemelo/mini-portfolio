@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <script defer src="./src/js/index.js"></script>
+    <title>Mini Portfólio - Arthur de Melo</title>
+  </head>
+  <body>
+    <main class="card">
+      <div class="my-info">
+        <img src="./src/img/foto-perfil.jpg" alt="foto de perfil" />
+        <h1 classs="name">Arthur de Melo</h1>
+        <h2 class="role">Desenvolvedor Front-end</h2>
+      </div>
+
+      <div class="content">
+        <ul class="tabs">
+          <li class="tab selected" id="about">
+            <img src="./src/img/sobre.gif" alt="sobre" />
+          </li>
+          <li class="tab" id="social">
+            <img src="./src/img/coracao.gif" alt="coracao" />
+          </li>
+        </ul>
+
+        <div class="tabs-info">
+          <div class="info selected" id="info-about">
+            <h3 class="subheading">Sobre</h3>
+            <div class="description">
+              <p>Olá! Meu nome é Arthur de Melo, seja bem-vindo(a)!</p>
+              <p>
+                Tenho 26 anos, sou estudante de Análise e Desenvolvimento de
+                Sistemas e também sou formado em Marketing. Estou iniciando
+                minha trajetória profissional na área de tecnologia e possuo
+                conhecimentos em
+                <span class="highlight">HTML, CSS e JavaScript</span>.
+              </p>
+            </div>
+          </div>
+          <div class="info" id="info-social">
+            <h3 class="subheading">Minhas redes</h3>
+            <ul class="social-media">
+              <li>
+                <a
+                  class="resume"
+                  href="https://drive.google.com/file/d/1lxR_Tn5A6EXDTrmNmHXuCNw10IwQB-dD/view?usp=sharing"
+                  target="_blank"
+                >
+                  Curriculo
+                </a>
+              </li>
+              <li>
+                <a
+                  class="linkedin"
+                  href="https://www.linkedin.com/in/artdemelo/"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a
+                  class="github"
+                  href="https://github.com/artdemelo"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
